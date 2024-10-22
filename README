@@ -1,0 +1,23 @@
+# Notice for use
+
+This repos wasn't a kind of [cheatsheet repositories for share](https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#cheatsheet-repositories).
+Given that the two structures are similar in nature, it is likely to be usable, but I have not tested it.
+
+**The way I use this repository** is to **clone it directly into the `.local/share/navi/cheat/` folder**. 
+There are two advantages to doing this: 
+  - first, any changes you make to this folder could be committed directly to the corresponding repository, 
+  avoiding the need to re-pull from the repository after submitting changes through an automatic update script. 
+  - Second, this method of commit allows for better synchronization of corresponding cheat sheet information between different computers.
+
+#---------- CHINESE VERSION ----------#
+
+# 使用说明
+
+这个仓库不是作为一个[用于共享的备忘录仓库](https://github.com/denisidoro/navi/blob/master/docs/cheatsheet_repositories.md#cheatsheet-repositories) 而设计的。
+虽然他们二者结构本质上是相同的，而很可能可以通过 `navi repo add jackyliu16/cheat-sheet` 引入，但是我没有测试过因此无法保证这一定能用。
+
+**我使用这个仓库的方式**是直接将其**克隆到 `.local/share/navi/cheat` 文件夹中替代原先 navi 的默认 cheat 文件保存文件夹。
+这样做有两个好处：首先是您对于该文件所作出的所有修改都可以直接提交到对应的存储库，避免通过自动更新脚本提交更改之后需要从存储库重新拉取。其次是这种方法允许在不同计算机中备忘录更好的进行同步。
+
+
+
