@@ -9,6 +9,3 @@ rg <string> <path>
 # Find string with regax word
 rg -e <regax_path> # '[0-9]{2}:[a-z]{4}'
 
-# Find string in regax match path
-
-
