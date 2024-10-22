@@ -1,0 +1,8 @@
+# This will pick the 3rd column and use the first line as header
+docker rmi <image_id>
+
+# Even though "false/true" is displayed, this will print "0/1"
+echo <mapped>
+
+$ image_id: docker images --- --column 3 --header-lines 1 --delimiter '\s\s+'
+$ mapped: echo 'false true' | tr ' ' '\n' --- --map "grep -q t && echo 1 || echo 0"

@@ -1,0 +1,16 @@
+% xrandr, linux
+
+# Set brightness of display monitor
+xrandr --output <NAMR_OR_XID> --brightness <0_1>
+
+# Set brightness for all display monitor
+apply_xrandr() {
+    local outputs=("$@") 
+    for output in "${outputs[@]}"; do
+        xrandr --output "$output" --brightness <0_1>
+    done
+}
+apply_xrandr <LIST_OF_NAME_OR_XID>
+
+$ LIST_OF_NAME_OR_XID: xrandr | grep ' connected' | cut -d' ' -f1 | tr '\n' ' '
+
